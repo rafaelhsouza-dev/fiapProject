@@ -8,7 +8,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.tree import DecisionTreeRegressor
 
 # 1. Exploração de Dados
-dados = pd.read_csv('arquivo.csv')
+dados = pd.read_csv('dados_ficticios.csv')
 print(dados.head())
 print(dados.describe())
 
